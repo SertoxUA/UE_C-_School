@@ -2,6 +2,7 @@
 
 using UnrealBuildTool;
 
+
 public class MyBiathlon : ModuleRules
 {
 	public MyBiathlon(ReadOnlyTargetRules Target) : base(Target)
@@ -12,7 +13,7 @@ public class MyBiathlon : ModuleRules
 
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput" });
 
-        PrivetDependencyModuleNames.AddRange(new string[] { });
+        PrivateDependencyModuleNames.AddRange(new string[] { });
 
     }
 }
